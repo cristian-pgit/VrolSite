@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #212529;
+}
+
+#textbox{
+    color: aliceblue;
+    margin-top: 1rem;
+}
+
+#QS{
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+#contgame{
+    margin-top: 56px!important;
+    gap: 1rem;
+}
+
+#cards{
+    gap: 1rem;
+}
+
+#calendar{
+    align-content: center;
+}
+
+#caltex{
+    color: darkgrey;
+}
+
+iframe{
+    width: 100%;
+}
+

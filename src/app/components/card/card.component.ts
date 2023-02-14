@@ -18,7 +18,7 @@ export class CardComponent implements OnInit{
     
   }
 
-  buyGame(){
+  detailGame(index : number){
     console.log("fx BuyGame")
     this.selectGame.emit(this.indexInput);
   }
