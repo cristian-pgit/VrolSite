@@ -17,6 +17,7 @@ import { DeletebanerComponent } from './components/deletebaner/deletebaner.compo
 import { CalendarComponent } from './components/calendar/calendar.component';
 import { DetailgameComponent } from './components/detailgame/detailgame.component';
 import { GamesComponent } from './components/games/games.component';
+import { SocialComponent } from './components/social/social.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { GamesComponent } from './components/games/games.component';
     DeletebanerComponent,
     CalendarComponent,
     DetailgameComponent,
-    GamesComponent
+    GamesComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,

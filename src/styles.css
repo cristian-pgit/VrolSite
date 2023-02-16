@@ -1,11 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 body{
     background-color: #212529;
+  
 }
 
-#textbox{
+#textbox1{
     color: aliceblue;
-    margin-top: 1rem;
+    margin: 1rem;
+    margin-right: 0.5rem;
+    font-size: 1.1rem;
+}
+#textbox2{
+    color: aliceblue;
+    margin: 1rem;
+    text-align: justify;
+    font-size: 1.2rem;
+
 }
 
 #QS{
