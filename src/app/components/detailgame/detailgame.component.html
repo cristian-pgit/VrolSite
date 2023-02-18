@@ -1,1 +1,18 @@
-<p>detailgame works!</p>
+<h1>Estas mirando {{ game.name }}</h1>
+<hr />
+<div class="row">
+  <div class="col-md-4">
+    <img [src]="game.imgd" class="img-fluid" />
+    <br /><br />
+    <div class="col-md-8">
+      <h3>{{ game.name | titlecase }}</h3>
+      <a class="btn btn-outline-primary" [routerLink]="['/games']"> Volver</a>
+      <hr />
+      <p><b>Descripción: </b>{{ game.descriptiond }}</p>
+      <div>
+        <p><b>Sistema : </b>{{ game.system }}</p>
+      </div>
+      <a class="btn btn-outline-primary" [routerLink]="['/games']" id="btnvf"> Volver</a>
+    </div>
+  </div>
+</div>

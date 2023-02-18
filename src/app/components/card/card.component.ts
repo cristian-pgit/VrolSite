@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-card',
@@ -11,7 +12,7 @@ export class CardComponent implements OnInit{
   @Input() indexInput: number = 0;
   @Output() selectGame: EventEmitter<any>
 
-  constructor(){
+  constructor(private router: Router){
     this.selectGame = new EventEmitter();
   }
   ngOnInit(): void {
@@ -19,8 +20,7 @@ export class CardComponent implements OnInit{
   }
 
   detailGame(index : number){
-    console.log("fx BuyGame")
-    this.selectGame.emit(this.indexInput);
+    this.router.navigate(['/games', index]);
   }
 
   

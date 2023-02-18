@@ -1,0 +1,27 @@
+h3{
+    color: aliceblue;
+    text-align: center;
+    margin-left: 2rem;
+}
+p{
+    color: azure;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 70%;    
+}
+
+a{
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+#btnvf{
+    margin-bottom: 1rem;
+}
