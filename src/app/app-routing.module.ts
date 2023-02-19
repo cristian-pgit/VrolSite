@@ -14,6 +14,8 @@ const routes: Routes = [
 {path: 'games/:id', component: DetailgameComponent},
 {path: 'social', component: SocialComponent},
 {path: '', redirectTo:'/home', pathMatch:'full'},
+{ path: 'contacto', loadChildren: () => import('./contacto/contacto.module').then(m => m.ContactoModule) },
+{ path: 'contacto', loadChildren: () => import('./contacto/contacto.module').then(m => m.ContactoModule) },
 ];
 
 

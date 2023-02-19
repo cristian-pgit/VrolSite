@@ -1,11 +1,11 @@
 <h1>Estas mirando {{ game.name }}</h1>
 <hr />
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-10">
     <img [src]="game.imgd" class="img-fluid" />
     <br /><br />
-    <div class="col-md-8">
-      <h3>{{ game.name | titlecase }}</h3>
+    <div class="col-md-12">
+      <h3>{{ game.name | titlecase}}</h3>
       <a class="btn btn-outline-primary" [routerLink]="['/games']"> Volver</a>
       <hr />
       <p><b>Descripción: </b>{{ game.descriptiond }}</p>

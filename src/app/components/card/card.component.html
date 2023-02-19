@@ -1,7 +1,7 @@
 <div class="card" style="width: 18rem; gap: 1rem;">
     <img [src]="dataInput.img" class="card-img-top">
     <div class="card-body">    
-    <h5 class="card-title">{{dataInput.name}}</h5>
+    <h5 class="card-title">{{dataInput.name | titlecase}}</h5>
     <p class="card-text">{{dataInput.description}}</p>
     <p class="card-text">{{dataInput.system}}</p>
     <button class="btn btn-primary" (click)="detailGame(indexInput)">Detalles</button>
